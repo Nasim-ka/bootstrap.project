@@ -1,0 +1,115 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(38, 37, 40);
+    
+}
+.bg-cover {
+    background-image: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding-top: 290px;
+    padding-bottom: 160px;
+    z-index: -1;
+}
+.btn,
+.btn:visited,
+.btn:focus
+ {
+    background-color: #713ABE;
+    
+}
+.btn:hover,
+.btn:active
+{
+    background-color: #5B0888;
+}
+.btn:focus
+{
+    background-color: #5B0888 !important;
+}
+.btn-light {
+    background-color: transparent;
+    border: 1px solid #713ABE;
+    
+}
+
+/* .border-btn {
+    border-color: #07632a !important;
+} */
+.btn a {
+    color: white;
+}
+a {
+    text-decoration: none;
+    
+}
+.btn {
+    border: 1px solid #713ABE;
+    display: inline-block;
+    border-radius: 25px;
+    position: relative;
+    padding: 11px 25px;
+}
+  .border-bottom {
+    border: 2px solid white;
+    width: 78%;
+    position: absolute;
+    bottom: 0;
+    left: 17px;
+    z-index: 3;
+    
+  }
+ 
+  .border-secondary1 {
+    border-color: rgb(67, 69, 69);
+}
+  /* .border2 {
+    border-color: #07632a;
+  } */
+  .text-purple {
+    color:#5B0888;
+  }
+  .border-success{
+    border-color: #5B0888 !important;
+}
+.cards-wrapper {
+    display: flex;
+}
+
+.border-x {
+    border: 1px solid white;
+  }
+.bg-me {
+    background-color: #804eb9;
+}
+.icon {
+    color: #804eb9;
+    background-color: aliceblue;
+    padding: 10px;
+    display: inline-flex;
+}
+
+.link a:hover {
+    background-color: #5B0888; 
+    border: 1px solid #5B0888;
+    border-radius: 25px;
+    position: relative;
+    padding: 8px 8px;
+}
+.t {
+    line-height: 10px;
+}
+
+.btn-carousel {
+    border: 1px solid #713ABE;
+    display: inline-block;
+    border-radius: 25px;
+    position: relative;
+    z-index: 3;
+    padding: 16px 80px;
+    
+}
+
+
